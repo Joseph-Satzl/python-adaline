@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: rgb(25, 25, 25);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    color: black;
+}
+
+label {
+    color: white;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    color: black;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 75px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+canvas {
+    max-width: 600px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+p {
+    color: white;
+}
+
+#weightBox {
+    position: relative;
+    top: 10%;
+    left: 40%;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#weights {
+    color: white;
+}

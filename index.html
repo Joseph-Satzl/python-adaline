@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaline Trainer and Tester</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Adaline Tester</h1>
+    <div id="weightBox">
+        <div id="weights">
+            
+        </div>
+    </div>
+    <form id="adaline-form">
+        <label for="learning-rate">Learning Rate:</label>
+        <input type="number" id="learning-rate" name="learning-rate" step="0.01" required>
+        <br>
+        <label for="epochs">Epochs:</label>
+        <input type="number" id="epochs" name="epochs" required>
+        <br>
+        <button type="button" onclick="testAdaline()">Test</button>
+    </form>
+    <div id="results"></div>
+    <canvas id="accuracyChart"></canvas>
+    <script src="static/script.js"></script>
+</body>
+</html>
